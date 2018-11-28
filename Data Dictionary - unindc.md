@@ -1,4 +1,4 @@
-## <span style="text-decoration:underline;">Uni</span>que <span style="text-decoration:underline;">N</span>ational <span style="text-decoration:underline;">D</span>rug <span style="text-decoration:underline;">C</span>ode  crosswalk file
+# <span style="text-decoration:underline;">Uni</span>que <span style="text-decoration:underline;">N</span>ational <span style="text-decoration:underline;">D</span>rug <span style="text-decoration:underline;">C</span>ode  crosswalk file
 
 This is a Stata format file that contains national drug codes (NDCs) and the World Health Organization Anatomical Therapeutic Chemical Classification (WHO ATC) system classes.
 
