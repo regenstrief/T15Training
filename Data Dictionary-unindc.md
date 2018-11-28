@@ -1,6 +1,6 @@
-##*Uni*que *N*ational *D*rug *C*ode  crosswalk file
+### *Uni*que *N*ational *D*rug *C*ode  crosswalk file
 
-This is a Stata format file that contains national drug codes (NDCs) and the World Health Organizatio Anatomical Therapeutic Chemical Classification (WHO ATC) system classes.
+This is a Stata format file that contains national drug codes (NDCs) and the World Health Organization Anatomical Therapeutic Chemical Classification (WHO ATC) system classes.
 
 ##Meta-data  
 
