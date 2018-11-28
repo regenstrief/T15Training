@@ -15,22 +15,22 @@ This is the master patient index of all patients in the registry. All rows are u
 Number of observations: 77,908
 Number of variables: 14
 
-   --------------------------------------------------------------------
-                  storage   display    value
-   variable name   type    format     label      variable label
-   --------------------------------------------------------------------
-   studyid         long    %12.0g                STUDYID
-   index_year      int     %8.0g                 INDEX_YEAR
-   index_age       byte    %8.0g                 INDEX_AGE
-   gender          str1    %9s                   GENDER
-   race            str42   %42s                  RACE
-   t2d_status      str13   %13s                  T2D_STATUS
-   cardiovascular  str2    %9s                   CARDIOVASCULAR
-   nephropathy     str2    %9s                   NEPHROPATHY
-   liver           str2    %9s                   LIVER
-   enc_12m_bf      int     %8.0g                 ENC_12M_BF
-   enc_12m_af      int     %8.0g                 ENC_12M_AF
-   enc_yrs_bf      byte    %8.0g                 ENC_YRS_BF
-   enc_yrs_af      byte    %8.0g                 ENC_YRS_AF
-   biobank         str2    %9s                   BIOBANK
-   --------------------------------------------------------------------
+    --------------------------------------------------------------------
+                   storage   display    value
+    variable name   type    format     label      variable label
+    --------------------------------------------------------------------
+    studyid         long    %12.0g                STUDYID
+    index_year      int     %8.0g                 INDEX_YEAR
+    index_age       byte    %8.0g                 INDEX_AGE
+    gender          str1    %9s                   GENDER
+    race            str42   %42s                  RACE
+    t2d_status      str13   %13s                  T2D_STATUS
+    cardiovascular  str2    %9s                   CARDIOVASCULAR
+    nephropathy     str2    %9s                   NEPHROPATHY
+    liver           str2    %9s                   LIVER
+    enc_12m_bf      int     %8.0g                 ENC_12M_BF
+    enc_12m_af      int     %8.0g                 ENC_12M_AF
+    enc_yrs_bf      byte    %8.0g                 ENC_YRS_BF
+    enc_yrs_af      byte    %8.0g                 ENC_YRS_AF
+    biobank         str2    %9s                   BIOBANK
+    --------------------------------------------------------------------
