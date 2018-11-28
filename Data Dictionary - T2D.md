@@ -1,4 +1,4 @@
-##Type-2 Diabetes Data Dictionary
+## Type-2 Diabetes Data Dictionary
 
 
 The Type-2 Diabetes or T2D dataset includes data extracted from the Indiana Network of Patient Care for patients presenting with Diabetes. The dataset consists of 5 tables: 
