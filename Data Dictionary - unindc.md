@@ -4,10 +4,10 @@ This is a Stata format file that contains national drug codes (NDCs) and the Wor
 
 ### Meta-data    
 
-    -----------------------------------------------------------------------------------------------------------------
+    --------------------------------------------------------------------
                   storage   display    value
     variable name   type    format     label      variable label
-    -----------------------------------------------------------------------------------------------------------------
+    --------------------------------------------------------------------
     ndc             str11   %11s                  NDC
     drug            str256  %256s                 SOURCE_CODE_DESCRIPTION
     rxncui          long    %12.0g                RXNORM_INGREDIENT
@@ -17,7 +17,7 @@ This is a Stata format file that contains national drug codes (NDCs) and the Wor
     sgthr           str50   %50s                  
     sgphr           str50   %50s                  
     sgchem          str50   %50s                  
-    -----------------------------------------------------------------------------------------------------------------
+    --------------------------------------------------------------------
 
 ### Variable Descriptions
 
