@@ -2,19 +2,19 @@
 ## Didactic Material
 ### Introduction
 
-The last decade or so has seen tremendous changes in the healthcare landscape. Most notably, paper records have now been replaced by electronic health records (EHRs). These records capture highly detailed informatin regarding the care a patient receives. This includes information on medications received, tests performed, diaognises, hospital stays etc. As you can imagine this data can be higly valuable from a research standpoint. However, due to its sheer volume and granularity, analyzing data dervied from an EHR poses some challenges.
+The last decade or so has seen tremendous changes in the healthcare landscape. Most notably, paper records have now been replaced by electronic health records (EHRs). These records capture highly detailed informatin regarding the care a patient receives. This includes information on medications received, tests performed, diaognises, hospital stays etc. As you can imagine this data can be highly valuable from a research standpoint. However, due to its sheer volume and granularity, analyzing data dervied from an EHR poses some challenges.
 
 In the following exercises, we will see some examples of ways in which EHR-derived data can be manipulated and used to answer research questions.
 
-**Note: while the datasets used in these exercises have been derived from real EHR data, for privacy and security purposes they have been deidentified as well as perturbed. Since individual observations in the data have been modified, spurious associtions may be discovered and as such, these findings should \*NOT\* be considered as evidence or as scientific premise for future research.**
+**Note: while the datasets used in these exercises have been derived from real EHR data, for privacy and security purposes they have been deidentified and perturbed. Since individual observations in the data have been modified, spurious associtions may be discovered and as such, these findings should \*NOT\* be considered as evidence or as scientific premise for future research.**
 
 ### The Premise
 You are a researcher who is interested in studying glycemic control in diabetic patients. You have just been given access to EHR-derived data on Type-2 Diabetes patients and are looking to use this data to examine the association between glycemic control and body mass index.
 
 ### The Tasks
-Ther are several tasks that are involved in answering you research question from acquiring raw data to actually creating an analytic datasets that are eventually used to run the final analysis. You need to first clean the data to make it more meaningful, this involves dropping observations, recoding data, checking for outliers and missingness, validity of observations (e.g. males should not be pregnant) etc. Additionally, you may need to bring in information from other data sources to add more meaning to the observations in your dataset. Further, it is possible that the "shape" of the data that you receive may not be optimal for your analysis. This may require reshaping your dataset to the strucuture most suitable for your analysis.
+There are several tasks that are involved in answering your research question, from acquiring raw data to actually creating an analytic dataset that will be used to run the final analysis. You need to first clean the data to make it more meaningful, this involves dropping observations, recoding data, checking for outliers and missingness, validity of observations (e.g. males should not be pregnant) etc. Additionally, you may need to bring in information from other data sources to add more meaning to the observations in your dataset. Further, it is possible that the "shape" of the data that you receive may not be optimal for your analysis. This may require reshaping your dataset to the strucuture most suitable for your analysis.
 
-In the exercises that follow we will do a little bit of everything that we just discussed. Remember, that these are not essentially discrete processes, meaning that you will often do multiple things to achieve the desired result.
+In the exercises that follow we will do a little bit of everything that we just discussed. Remember that these are not essentially discrete processes, meaning that you will often do multiple things to achieve the desired result.
 
 To reiterate, our research question focuses on examining the relationship between glycemic control and body mass index. It is also likely that an individual's race as well as gender may affect this relationship. As such, we need to include this information analysis. 
 
