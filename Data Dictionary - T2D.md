@@ -45,14 +45,11 @@ This contains the diagnosis list for all patients in the registry. Rows are **NO
 Number of observations: 9,195,539                          
 Number of variables: 3                          
 
-    --------------------------------------------------------------------
-                  storage   display    value
-    variable name   type    format     label      variable label
-    --------------------------------------------------------------------
-    studyid         long    %8.0g                 STUDYID
-    days_dx_index   float   %9.0g                 DAYS_DX_INDEX
-    dx_code         str8    %9s                   DX_CODE
-    --------------------------------------------------------------------
+| **Variables     | Variable Description**               |
+|---------------|------------------------------------|
+| study_id      | Patient identifier                 |
+| days_dx_index | Number of days from/to index event |
+| dx_code       | ICD9 diagnosis code                |
 
 
 ## Clinical variables table
