@@ -94,3 +94,14 @@ Number of variables: 7
 | obs            | Actual name of the type of observation (e.g. Weight, Order, Pulse, Medication name in case of medications etc.)                                                                                                                                                                                                                     |
 | obsvalue       | Values of observation types in `obs` variable for quantitative clinical vars, i.e. tests where results are numbers). (e.g. if `obs` has "Weight (lbs)" `code_name` may have "140 lbs" (weight value) etc.)                                                                                                                                                                                                                 |
 | code_name      |  Values of observation types in `obs` variable for qualitative clinical vars, i.e. tests with results of positive/negative for instance. (e.g. if `obs` has value of "ABO Grouping", `code_name` may have a value of "group O" (actual  blood group) |
+
+
+## Notes  
+### Keys  
+* The studyid variabl can be used to link patients from the `patients` table to observations in the other tables. 
+* `days_<insert table root here>_ index` vars can be linked across tables.
+table root refers to the middle portion of the `days_index` vars in all tables. These are as follows
+ * Medication data: med
+ * Encounter table: enc
+ * Diagnosis table: dx
+ * Clinical vars table : vis
