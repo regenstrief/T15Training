@@ -12,8 +12,8 @@ The Type-2 Diabetes or T2D dataset includes data extracted from the Indiana Netw
 This is the master patient index (MPI) of all patients in the registry. All rows are unique and identify a distinct patient with T2D.
 
 ### Meta-data
-Number of observations: 77,908
-Number of variables: 14
+Number of observations: 77,908  
+Number of variables: 14  
 
 | **Variable**       | **Variable Description**                                                                                                                                                                        |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,12 +33,11 @@ Number of variables: 14
 | biobank        | Availability of biobank data for patient: Yes/No                                                                                                                                            |
 
 ## Medications table
-Number of observations: 709,744
-Number of variables: 7
-
-### Meta-data
 This contains prescription data for all patients in the registry. Rows are **NOT** unique, i.e. there are multiple rows for a given patient. The total number of unique patients may not necessarily be equal to the MPI.
 
+### Meta-data
+Number of observations: 709,744  
+Number of variables: 7  
 
 | **Variables**         | **Variable description**                                       |
 |-----------------------|----------------------------------------------------------------|
@@ -51,11 +50,11 @@ This contains prescription data for all patients in the registry. Rows are **NOT
 | dispense_amount       | Number of pills/units dispensed                                |
 
 ## Encounters table
-Number of observations: 7,891,799  
-Number of variables: 4
+This contains the encounter type for patient encounters in the registry. Rows are **NOT** unique, i.e. there are multiple rows for a given patient. The total number of unique patients may not necessarily be equal to the MPI.
 
 ### Meta-data
-This contains the encounter type for patient encounters in the registry. Rows are **NOT** unique, i.e. there are multiple rows for a given patient. The total number of unique patients may not necessarily be equal to the MPI.
+Number of observations: 7,891,799  
+Number of variables: 4  
 
 | **Variables**          | **Variable description**                            |
 |------------------------|-----------------------------------------------------|
@@ -68,8 +67,8 @@ This contains the encounter type for patient encounters in the registry. Rows ar
 This contains the diagnosis list for all patients in the registry. Rows are **NOT** unique, i.e. there are multiple rows for a given patient. The total number of unique patients may not necessarily be equal to the MPI.
 
 ### Meta-data
-Number of observations: 9,195,539                          
-Number of variables: 3                          
+Number of observations: 9,195,539  
+Number of variables: 3               
 
 | **Variables**     | **Variable Description**               |
 |---------------|------------------------------------|
