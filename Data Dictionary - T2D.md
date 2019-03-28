@@ -51,7 +51,7 @@ This contains prescription data for all patients in the registry. Rows are **NOT
 | dispense_amount       | Number of pills/units dispensed                                |
 
 ## Encounters table
-Number of observations: 7,891,799 
+Number of observations: 7,891,799  
 Number of variables: 4
 
 ### Meta-data
@@ -79,10 +79,12 @@ Number of variables: 3
 
 
 ## Clinical variables table
-Number of observations: 27,776,723
-Number of variables: 7
+This contains the clinical variables for all patients in the registry. Rows are **NOT** unique, i.e. there are multiple rows for a given patient. The total number of unique patients may not necessarily be equal to the MPI. Clinical variables include but are not exclusive to data on tests, vitals, medications and procedures.
 
 ### Meta-data
+Number of observations: 27,776,723  
+Number of variables: 7  
+
 
 | **Variables**  | **Variable description**                                                                                                                                                                                                                                                                                                            |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
