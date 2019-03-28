@@ -101,7 +101,7 @@ Number of variables: 7
 * The studyid variabl can be used to link patients from the `patients` table to observations in the other tables. 
 * `days_<insert table root here>_ index` vars can be linked across tables.
 table root refers to the middle portion of the `days_index` vars in all tables. These are as follows
- * Medication data: med
- * Encounter table: enc
- * Diagnosis table: dx
- * Clinical vars table : vis
+   * Medication data: med
+   * Encounter table: enc
+   * Diagnosis table: dx
+   * Clinical vars table : vis
