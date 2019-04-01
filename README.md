@@ -6,9 +6,9 @@ The last decade or so has seen tremendous changes in the healthcare landscape. M
 
 In addition to generating large amounts of data, EHRs have also made it possible to share health data of entire populations for public health practices. For instance, EHRs have made it possible to monitor population health data in real-time in order to detect outbreaks, or any sudden changes in the health status. This process is known as syndromic surveillance and allows public health agencies to monitor public health and enables the early detection of outbreaks and epidemics. This in turn facilitates public health agencies to  mobilize a swift and appropriate response to any emergencies. 
 
-As part of the the Indiana training program in public and population health informatics, we created excercise sets which focus on these two related but distinct use cases of electronic healthd ata. In the following exercises,we will see some examples of ways in which EHR-derived data can be manipulated and used to answer research questions.
+As part of the the Indiana training program in public and population health informatics, we created excercise sets which focus on these two related but distinct use cases of electronic healthd ata. In the following exercises, we will see some examples of ways in which EHR-derived data can be manipulated and used to answer research questions.
 
-**Note: while the datasets used in these exercises have been derived from real EHR data, for privacy and security purposes they have been deidentified and perturbed. Since individual observations in the data have been modified, spurious associations may be discovered and as such, these findings should \*NOT\* be considered as evidence or as scientific premise for future research.**
+**Note: While the datasets used in these exercises have been derived from real EHR data, for privacy and security purposes they have been deidentified and perturbed. Since individual observations in the data have been modified, spurious associations may be discovered and as such, these findings should \*NOT\* be considered as evidence or as scientific premise for future research.**
 
 ## Exercise set I: Type-2 Diabetes Mellitus (T2DM)
 ### The Premise
