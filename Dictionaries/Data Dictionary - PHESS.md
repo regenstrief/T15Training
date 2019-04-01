@@ -1,7 +1,7 @@
 # PHESS Data Dictionary
 
 This deidentified data was derived from the Indiana State Department of Health's (ISDH) Public Health Emergency Surveillance (PHESS) system. Emergency
-departments across Indiana send raw hl7 data to ISDH to be used for early detection of public health emergencies. The variables in this data were derived by parsing various HL7 segments into a delimited text file.
+departments across Indiana send raw HL7 data to ISDH to be used for early detection of public health emergencies. The variables in this data were derived by parsing various HL7 segments into a delimited text file.
 
 The following links may provide more information:
 
