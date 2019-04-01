@@ -1,7 +1,7 @@
 # Type-2 Diabetes Data Dictionary
 
 
-The Type-2 Diabetes or T2D dataset includes data extracted from the Indiana Network of Patient Care for patients presenting with Diabetes. The dataset consists of 5 tables: 
+The Type-2 Diabetes (T2D) dataset includes data extracted from the Indiana Network for Patient Care for patients presenting with Diabetes. The dataset consists of 5 tables: 
 1. Patients table (patients.csv)
 2. Prescription medication table (medication.csv)
 3. Encounters table (encounter.csv)
@@ -98,7 +98,7 @@ Number of variables: 7
 
 ## Notes  
 ### Keys  
-* The studyid variabl can be used to link patients from the `patients` table to observations in the other tables. 
+* The studyid variable can be used to link patients from the `patients` table to observations in the other tables. 
 * `days_<insert table root here>_ index` vars can be linked across tables.
 table root refers to the middle portion of the `days_index` vars in all tables. These are as follows
    * Medication data: med
