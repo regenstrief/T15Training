@@ -2,11 +2,12 @@
 ## Didactic Material
 ### Introduction
 
-The last decade or so has seen tremendous changes in the healthcare landscape. Most notably, paper records have now been replaced by electronic health records (EHRs). These records capture highly detailed information regarding the care a patient receives. This includes information on medications received, tests performed, diagnoses, hospital stays etc. As you can imagine this data can be highly valuable from a research standpoint. However, due to its sheer volume and granularity, analyzing data derived from an EHR poses challenges related to data analysis and interpretation that make it harder to deriver value from tis data. 
+The last decade or so has seen tremendous changes in the healthcare landscape. Most notably, paper records have now been replaced by electronic health records (EHRs). These records capture highly detailed information regarding the care a patient receives. This includes information on medications received, tests performed, diagnoses, hospital stays etc. As you can imagine this data can be highly valuable from a research standpoint. However, due to its sheer volume and granularity, analyzing data derived from an EHR poses challenges related to data analysis and interpretation that make it harder to derive value from this data. 
 
 In addition to generating large amounts of data, EHRs have also made it possible to share health data of entire populations for public health practices. For instance, EHRs have made it possible to monitor population health data in real-time in order to detect outbreaks, or any sudden changes in the health status. This process is known as syndromic surveillance and allows public health agencies to monitor public health and enables the early detection of outbreaks and epidemics. This in turn facilitates public health agencies to  mobilize a swift and appropriate response to any emergencies. 
 
-As part of the the Indiana training program in public and population health informatics, we created excercise sets which focus on these two related but distinct use cases of electronic healthd ata. In the following exercises, we will see some examples of ways in which EHR-derived data can be manipulated and used to answer research questions.
+As part of the the Indiana training program in public and population health informatics, we created excercise sets which focus on these two related but distinct use cases of electronic healthd ata. In the following exercises, we will see some examples of ways in which EHR-derived data can be manipulated and used to answer research questions. In addition to EHR data, the use of publicly available data from online sources such as webpages is also becoming increasingly popular in public health research. As such, we will also explore one such use case which focuses on extracting data from the National Oceaonographic and Atmosphereic Administration website using _web scraping_ methods.
+
 
 **Note: While the datasets used in these exercises have been derived from real EHR data, for privacy and security purposes they have been deidentified and perturbed. Since individual observations in the data have been modified, spurious associations may be discovered and as such, these findings should \*NOT\* be considered as evidence or as scientific premise for future research.**
 
@@ -33,5 +34,22 @@ How will these findings change if we also control for medications, specifically 
 
 ## Exercise set II: Public Health Emergency Surveillance System
 ### The Premise
+You are a researcher who is interested in investigating the distribution and relation between causes for emergency admissions in the Indiana Health System using the Public Health Emergency Surveillance System (PHESS) data. While new to R, you are interested in learning the tidyverse method for transforming, summarizing, and visualizing data in the R programming language.
 
 ### The Tasks
+The PHESS data includes duplicated records, which we will deal with as necessary, but also brings up many questions, including the relationship between FLAG variables in the data, and the creation of new relevant FLAG variables using the text fields available in the dataset. Our primary aim is also to become more proficient at transforming and visualizing data using the R programming language, and in specific, the `ggplot2` and `dplyr` libraries, two of the primary choices for data scientists who utilize R in their workflows.
+
+In Exercise 1, we will learn basic `dplyr` commands for selecting, filtering, mutating, and summarizing data. We will also investigate more flexible methods for filtering, selecting, and mutating data based on patterns in the variable names. We will then learn how to group our data and summarize in several manners by categories embedded in the data. Finally, we will learn how to restructure data from so-called “wide” to “long” format, and vice versa.
+
+In Exercise 2, we will learn basic `ggplot2` visualization techniques using the grammar of graphics built into this package. We will learn how to change labels in a plot and also change the presentation of scales in the plots created. We will also learn how to visualize data by groups similar to how we summarized data by group using `dplyr` in exercise 1. Finally, we will learn how one can create new FLAG variables using the R package `stringr`.
+
+In Exercise 3, we will try to put all of our knowledge together and apply a dimension reduction technique to the **PHESS** data with hopes of reducing the number of FLAG variables we need to consider in future analyses. This process includes calculating the Pearson Phi coefficient for binary data and also utilizing the `ggcorrplot` function, which provides aesthetically pleasing visual representations of correlation matrices. Finally, we apply Principal Components Analysis (**PCA**) to the FLAG data. We find that there are insufficient correlations between most FLAG variables, and that the **PCA** identifies components of which the first two are driven by the two most common FLAG variables in the **PHESS** data.
+
+## Exercise set III: Web Scraping Using R  
+### The Premise  
+You are a public health researcher interested in extracting data from sources on the web with little to no experience with web development or web scraping.
+
+### The Tasks  
+This standalone exercise provides an introduction to navigating the document object model (DOM) of a web page in order to write an R script which extracts the desired data in a tabular format using the R package `rvest`. Screenshots are provided to help individuals who are new to web scraping understand how to navigate a page using the DOM, and demonstrations are given for extracting data held in tables from the website https://airquality.weather.gov
+
+This process can easily be scaled up in R using for loops, while loops, etc. to extract data from many different locations over a short period of time.
