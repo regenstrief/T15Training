@@ -52,4 +52,9 @@ You are a public health researcher interested in extracting data from sources on
 ### The Tasks  
 This standalone exercise provides an introduction to navigating the document object model (DOM) of a web page in order to write an R script which extracts the desired data in a tabular format using the R package `rvest`. Screenshots are provided to help individuals who are new to web scraping understand how to navigate a page using the DOM, and demonstrations are given for extracting data held in tables from the website https://airquality.weather.gov
 
-This process can easily be scaled up in R using for loops, while loops, etc. to extract data from many different locations over a short period of time.
+This process can easily be scaled up in R using for loops, while loops, etc. to extract data from many different locations over a short period of time.  
+
+****  
+We hope you enjoy these exercises and find them useful in your research process. 
+
+Happy Coding!
